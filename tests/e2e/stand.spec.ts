@@ -20,10 +20,23 @@ test('production build runs under a repository path with local WASM and no exter
   expect(report.resources.dynamicBodies).toBe(6);
   expect(report.resources.bodies).toBe(11);
   expect(report.renderer.api).toBe('WebGL2');
+  const layout = await page.evaluate(() => {
+    const bounds = document.querySelector('.viewport')!.getBoundingClientRect();
+    return { x: bounds.x, y: bounds.y, width: bounds.width, height: bounds.height, windowWidth: innerWidth, windowHeight: innerHeight };
+  });
+  if (testInfo.project.name.includes('touch')) {
+    expect(layout.x).toBe(0);
+    expect(layout.y).toBe(0);
+    expect(layout.width).toBe(layout.windowWidth);
+    expect(layout.height).toBe(layout.windowHeight);
+    expect(report.canvas.width * report.canvas.height).toBeLessThanOrEqual(1_003_000);
+  } else {
+    expect(layout.width).toBeLessThanOrEqual(460);
+  }
   expect(urls.some(url => url.endsWith('.wasm'))).toBe(true);
   expect(urls.every(url => url.startsWith('http://127.0.0.1:4173/coastal-racer/'))).toBe(true);
   expect(errors).toEqual([]);
-  await page.screenshot({ path: testInfo.outputPath('stand.png'), fullPage: true });
+  await page.screenshot({ path: testInfo.outputPath('stand.png'), fullPage: false });
   const downloadPromise = page.waitForEvent('download');
   await page.getByRole('button', { name: 'Отчёт JSON' }).click();
   const download = await downloadPromise;

@@ -16,6 +16,7 @@ export default defineConfig({
   projects: [
     { name: 'desktop-chromium', use: { viewport: { width: 1280, height: 1000 } } },
     { name: 'portrait-touch-chromium', use: { ...devices['iPhone 13'], defaultBrowserType: 'chromium' } },
+    { name: 'tablet-touch-chromium', use: { viewport: { width: 820, height: 1180 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true } },
   ],
   webServer: { command: 'node tools/serve-dist.mjs', url: 'http://127.0.0.1:4173/coastal-racer/', reuseExistingServer: !process.env.CI, timeout: 30_000 },
 });

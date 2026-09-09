@@ -6,7 +6,7 @@ Read docs/GAME_IMPLEMENTATION_PLAN.md before implementation. Work one requested 
 - No stack/control/MVP changes without a recorded decision. No custom collision solver.
 - No ads, payments, paid generation APIs, accounts, backend, analytics, runtime CDN or network dependency during simulation.
 - Generated original assets via local Blender scripts in later stages; no downloaded game models and no images presented as GLB. Preserve accepted sources/versions.
-- Blender is not installed; user explicitly requested skipping its check in stage 0. Do not install it silently.
+- The user has now installed Blender (reported 2026-09-09). Version/path have not been checked; the initial stage 0 check was skipped at their request. Do not install or update it silently.
 - Technical boxes in stage 0 are placeholders. Visual acceptance and device performance remain separate gates.
 - Keep frame/physics clocks separate. Test pause/resume, visibility, orientation, resize and disposal when changing lifecycle.
 - Preserve seed/scenario/version in diagnostics; do not claim cross-browser physics determinism.
