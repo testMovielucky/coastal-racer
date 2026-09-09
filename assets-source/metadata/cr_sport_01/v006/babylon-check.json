@@ -1,0 +1,34 @@
+{
+  "asset": "cr_sport_01",
+  "revision": "v006",
+  "checkedAt": "2026-09-09",
+  "glbSha256": "ada35c65b99507aa1f019be017b2c7d0ba3f9e222bc7e496686e13539c7c38dd",
+  "babylon": "9.25.0",
+  "loader": "9.25.0",
+  "checks": {
+    "import": true,
+    "triangles": 21114,
+    "materials": 4,
+    "renderMeshes": 16,
+    "dimensionsXYZ": [
+      2.254,
+      1.215,
+      4.468
+    ],
+    "vertexColors": true,
+    "wheelPivots": true,
+    "bodyRecolor": true,
+    "colliderToggle": true,
+    "localResourcesOnly": true,
+    "hashCheck": true
+  },
+  "testEnvironment": "Windows Chrome / SwiftShader, desktop and emulated phone/tablet",
+  "pending": [
+    "Human artistic acceptance in Babylon",
+    "Real iPhone/iPad reports",
+    "Six-car race performance",
+    "Vehicle physics integration",
+    "Full stage 1 acceptance"
+  ],
+  "sourceModified": false
+}

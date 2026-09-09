@@ -1,0 +1,132 @@
+{
+  "asset": "cr_sport_01",
+  "version": "v006",
+  "blender": "5.2.1 LTS",
+  "triangles": 21114,
+  "degenerate_triangles": 0,
+  "closed_shells": {
+    "QA_Closed_Body_Shell": {
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "triangles": 10276,
+      "volume_m3": 4.207357056491508,
+      "all_triangles_preserved_in_glb": true
+    },
+    "QA_Closed_Canopy": {
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "triangles": 80,
+      "volume_m3": 1.0681341579722745,
+      "all_triangles_preserved_in_glb": true
+    }
+  },
+  "triangle_budget": 25000,
+  "materials": [
+    "Body_Paint",
+    "Rubber_Trim",
+    "Glass_Dark",
+    "Detail_VertexColor"
+  ],
+  "material_count": 4,
+  "mesh_count": 5,
+  "primitive_count": 16,
+  "texture_count": 0,
+  "glb_bytes": 830120,
+  "glb_sha256": "ada35c65b99507aa1f019be017b2c7d0ba3f9e222bc7e496686e13539c7c38dd",
+  "collider_bytes": 2004,
+  "collider_triangles": 12,
+  "bounds_blender_m": {
+    "min": [
+      -1.1269999742507935,
+      -2.2230000495910645,
+      0.0
+    ],
+    "max": [
+      1.1269999742507935,
+      2.245000123977661,
+      1.215000033378601
+    ],
+    "dimensions": [
+      2.253999948501587,
+      4.468000173568726,
+      1.215000033378601
+    ]
+  },
+  "nodes": [
+    "Body",
+    "Wheel_FL_Mesh",
+    "Wheel_FL",
+    "Wheel_FR_Mesh",
+    "Wheel_FR",
+    "Wheel_RL_Mesh",
+    "Wheel_RL",
+    "Wheel_RR_Mesh",
+    "Wheel_RR",
+    "CR_Sport_01"
+  ],
+  "wheels": {
+    "Wheel_FL": {
+      "gltf_pivot_m": [
+        0.9070000052452087,
+        0.35499998927116394,
+        1.2799999713897705
+      ],
+      "spin_axis": "local X",
+      "radius_m": 0.355000066934103,
+      "rotation_90deg_keeps_pivot_and_geometry": true
+    },
+    "Wheel_FR": {
+      "gltf_pivot_m": [
+        -0.9070000052452087,
+        0.35499998927116394,
+        1.2799999713897705
+      ],
+      "spin_axis": "local X",
+      "radius_m": 0.355000066934103,
+      "rotation_90deg_keeps_pivot_and_geometry": true
+    },
+    "Wheel_RL": {
+      "gltf_pivot_m": [
+        0.9070000052452087,
+        0.35499998927116394,
+        -1.2699999809265137
+      ],
+      "spin_axis": "local X",
+      "radius_m": 0.355000066934103,
+      "rotation_90deg_keeps_pivot_and_geometry": true
+    },
+    "Wheel_RR": {
+      "gltf_pivot_m": [
+        -0.9070000052452087,
+        0.35499998927116394,
+        -1.2699999809265137
+      ],
+      "spin_axis": "local X",
+      "radius_m": 0.355000066934103,
+      "rotation_90deg_keeps_pivot_and_geometry": true
+    }
+  },
+  "checks": {
+    "binary_container_and_accessors": true,
+    "finite_positions_and_unit_normals": true,
+    "no_degenerate_triangles": true,
+    "triangle_material_texture_budget": true,
+    "no_external_uris": true,
+    "hierarchy_preserved": true,
+    "blender_glb_import": true,
+    "body_color_parameter": true,
+    "separate_box_collider": true
+  },
+  "not_verified": [
+    "Babylon rendering",
+    "browser performance",
+    "iPhone/iPad",
+    "human artistic acceptance"
+  ],
+  "provenance": {
+    "method": "Original scripted Blender geometry",
+    "downloaded_models": false,
+    "paid_generation": false,
+    "youtube_video_viewed": false
+  }
+}

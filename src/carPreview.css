@@ -1,0 +1,22 @@
+.car-shell { width: min(100%, 600px); height: 100svh; height: 100dvh; margin: 0 auto; display: grid; grid-template-rows: auto minmax(160px, 1fr) auto; background: #17323e; overflow: hidden; }
+.car-header { display: flex; justify-content: space-between; align-items: center; padding: max(18px, env(safe-area-inset-top)) 20px 14px; gap: 12px; }
+.car-header h1 { font-size: 23px; }.car-header h1 span { color: #d9edb0; font-size: 13px; margin-left: 8px; }.car-header a { font-size: 12px; color: #b5ccd0; }
+.car-stage { position: relative; min-height: 0; overflow: hidden; }
+#car-canvas { width: 100%; height: 100%; }
+.car-hint { position: absolute; top: 10px; left: 16px; margin: 0; color: #c6d9dc; font-size: 10px; pointer-events: none; }
+.car-notice { position: absolute; top: 50%; left: 12%; right: 12%; transform: translateY(-50%); background: #102b37ed; padding: 22px; border-radius: 10px; text-align: center; font-size: 14px; }
+.car-panel { padding: 12px 14px max(12px, env(safe-area-inset-bottom)); }
+.car-views { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.car-panel button { font-size: 11px; padding: 8px; }
+.car-panel button[aria-pressed="true"] { background: #d9edb0; color: #17343d; }
+.car-options { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-top: 9px; align-items: center; }
+.car-options label { display: flex; align-items: center; gap: 5px; font-size: 10px; }
+.car-options select { min-width: 0; width: 100%; min-height: 44px; padding: 5px; border-radius: 7px; border: 1px solid #ffffff30; background: #17323e; color: #eef5f1; }
+.car-report-line { display: flex; justify-content: space-between; font-size: 10px; color: #b4cbd0; margin: 13px 0 8px; gap: 8px; }
+.car-report-line strong { color: #e2eddb; font-weight: 500; font-variant-numeric: tabular-nums; }
+.car-bottom { display: flex; align-items: center; gap: 10px; }.car-bottom span { margin-left: auto; font-size: 10px; color: #8daab3; }
+.car-footnote { margin: 7px 0 0; color: #8daab3; font-size: 9px; line-height: 1.4; }
+@media (pointer: coarse) { .car-shell { width: 100%; } }
+@media (pointer: coarse) and (min-width: 601px) { .car-panel { width: min(100%, 650px); justify-self: center; } }
+@media (pointer: coarse) and (orientation: landscape) { .car-shell { grid-template-rows: auto minmax(0, 1fr); }.car-panel { display: none; } }
+.car-link { display: block; color: #d9edb0; font-size: 12px; padding: 8px; text-align: center; }

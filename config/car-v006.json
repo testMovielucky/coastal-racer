@@ -1,0 +1,16 @@
+{
+  "id": "cr_sport_01",
+  "revision": "v006",
+  "triangleBudget": 25000,
+  "triangles": 21114,
+  "model": {
+    "path": "assets/cars/cr_sport_01/v006/cr_sport_01_v006.glb",
+    "bytes": 830120,
+    "sha256": "ada35c65b99507aa1f019be017b2c7d0ba3f9e222bc7e496686e13539c7c38dd"
+  },
+  "collider": {
+    "path": "assets/cars/cr_sport_01/v006/cr_sport_01_v006.collider.glb",
+    "bytes": 2004,
+    "sha256": "a2aad7d1f0a73d3c8cea38052dd6816818e3f242e324b4b5ce1d3a5d781aed3c"
+  }
+}

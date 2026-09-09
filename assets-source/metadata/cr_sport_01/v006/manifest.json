@@ -1,0 +1,67 @@
+{
+  "asset": "cr_sport_01",
+  "revision": "v006",
+  "status": "awaiting_artistic_review",
+  "files": [
+    {
+      "path": "tools/blender/cr_sport_01_v006.py",
+      "bytes": 18990,
+      "sha256": "fb6d78ff4b5c2b548fec339fa8f4a6ad4bdc5b8499c8599ea18e2c399c1921f2"
+    },
+    {
+      "path": "tools/blender/validate_cr_sport_01_v006.py",
+      "bytes": 8264,
+      "sha256": "d6f5e2ab305c0914244f80edb357e2b72fbcfb96a5b9c31a2b046bffbefc7156"
+    },
+    {
+      "path": "assets-source/blender/cr_sport_01/v006/cr_sport_01_v006.blend",
+      "bytes": 453866,
+      "sha256": "be7639211c5abb010c2a4958a3337ac51d51d6ee513b85345137cb8acb287922"
+    },
+    {
+      "path": "public/assets/cars/cr_sport_01/v006/cr_sport_01_v006.glb",
+      "bytes": 830120,
+      "sha256": "ada35c65b99507aa1f019be017b2c7d0ba3f9e222bc7e496686e13539c7c38dd"
+    },
+    {
+      "path": "public/assets/cars/cr_sport_01/v006/cr_sport_01_v006.collider.glb",
+      "bytes": 2004,
+      "sha256": "a2aad7d1f0a73d3c8cea38052dd6816818e3f242e324b4b5ce1d3a5d781aed3c"
+    },
+    {
+      "path": "assets-source/previews/cr_sport_01/v006/front.png",
+      "bytes": 1528447,
+      "sha256": "c13a077f882bac9e6676bef99ae1f7cbba28da9ecb0fa3610b33bb67503ddd81"
+    },
+    {
+      "path": "assets-source/previews/cr_sport_01/v006/rear.png",
+      "bytes": 1530792,
+      "sha256": "3aee2ed2f1763c6d2f4389d02a6e7386a8c6f3c1e7f98f5e639082c6aea1a91b"
+    },
+    {
+      "path": "assets-source/previews/cr_sport_01/v006/side.png",
+      "bytes": 1534518,
+      "sha256": "2f59a8da6cc8fd672cd80ae3992ada4baf33e27495aa062aa81f78bd1773acf6"
+    },
+    {
+      "path": "assets-source/previews/cr_sport_01/v006/gameplay.png",
+      "bytes": 1572439,
+      "sha256": "d1c2ff9a2fb1efb843995727c7cb1d2e8dd939b40bc7692b671ccec4db233895"
+    },
+    {
+      "path": "assets-source/prompts/cr_sport_01/v006/brief.md",
+      "bytes": 1185,
+      "sha256": "ab76e2705d7de0ace7a83947d33b63d431c2f86793bdb18afceab2b6f0c83fbf"
+    },
+    {
+      "path": "assets-source/metadata/cr_sport_01/v006/validation.json",
+      "bytes": 3297,
+      "sha256": "f11e433971c15d81210f7186698c06b1b5a35ac8eed2decb666aa9cb6602cfe7"
+    },
+    {
+      "path": "assets-source/metadata/cr_sport_01/v006/README.md",
+      "bytes": 6989,
+      "sha256": "b941c9bec8c7b0b584c06475cb4b6812981201379ef5c538e9162ddb711c9b80"
+    }
+  ]
+}

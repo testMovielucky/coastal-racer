@@ -1,0 +1,14 @@
+{
+  "asset": "cr_sport_01",
+  "revision": "v006",
+  "status": "art_accepted",
+  "date": "2026-09-09",
+  "user_statement": "оставляем этот вариант. что дальше?",
+  "glb_sha256": "ada35c65b99507aa1f019be017b2c7d0ba3f9e222bc7e496686e13539c7c38dd",
+  "scope": "Visual model accepted from Blender review renders",
+  "pending": [
+    "Babylon visual verification",
+    "target-device performance",
+    "full stage 1 acceptance"
+  ]
+}

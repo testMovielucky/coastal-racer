@@ -43,6 +43,7 @@ export class Stand {
             <div class="panel-footer"><span>WebGL2 + Havok · <span id="ticks">0</span> шагов</span><button id="export" class="text-button">Отчёт JSON ↗</button></div>
           </section>
         </section>
+        <a class="car-link" href="?view=car-v006">Посмотреть машину v006 →</a>
         <p class="disclaimer">Этап 0 · Технические кузова, не финальные модели. Управление гонкой появится позже.<br>Показатели этого браузера не подтверждают 60 FPS на iPhone или iPad.</p>
       </main>`;
     const canvas = root.querySelector<HTMLCanvasElement>('#scene')!;

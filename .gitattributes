@@ -1,0 +1,6 @@
+# Preserve exact bytes covered by asset manifests across Windows and CI.
+assets-source/** -text
+tools/blender/** -text
+*.glb binary
+*.blend binary
+*.png binary

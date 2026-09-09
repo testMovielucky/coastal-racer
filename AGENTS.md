@@ -1,12 +1,12 @@
 # Coastal Racer
 
-Read docs/GAME_IMPLEMENTATION_PLAN.md before implementation. Work one requested stage at a time. Current scope: stage 0 only.
+Read docs/GAME_IMPLEMENTATION_PLAN.md before implementation. Work one requested stage at a time. Current scope: stage 0 plus the explicitly requested visual Babylon preview of accepted car v006. No race-controller implementation.
 
 - TypeScript strict + Vite + ordinary Babylon.js, WebGL2, Babylon Physics V2 + Havok. Keep exact versions and package-lock.json.
 - No stack/control/MVP changes without a recorded decision. No custom collision solver.
 - No ads, payments, paid generation APIs, accounts, backend, analytics, runtime CDN or network dependency during simulation.
 - Generated original assets via local Blender scripts in later stages; no downloaded game models and no images presented as GLB. Preserve accepted sources/versions.
-- The user has now installed Blender (reported 2026-09-09). Version/path have not been checked; the initial stage 0 check was skipped at their request. Do not install or update it silently.
+- Blender 5.2.1 LTS was verified in the modeling task at C:/Program Files/Blender Foundation/Blender 5.2/blender.exe. Do not install or update it silently. Accepted v006 is immutable; the user approved a 25k triangle budget in the modeling task.
 - Technical boxes in stage 0 are placeholders. Visual acceptance and device performance remain separate gates.
 - Keep frame/physics clocks separate. Test pause/resume, visibility, orientation, resize and disposal when changing lifecycle.
 - Preserve seed/scenario/version in diagnostics; do not claim cross-browser physics determinism.
