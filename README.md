@@ -1,6 +1,6 @@
 # Coastal Racer · этап 0
 
-[Открыть стенд](https://testmovielucky.github.io/coastal-racer/) · [Репозиторий](https://github.com/testMovielucky/coastal-racer)
+[Открыть стенд](https://testmovielucky.github.io/coastal-racer/) · [Модель v006 в Babylon.js](https://testmovielucky.github.io/coastal-racer/?view=car-v006) · [Репозиторий](https://github.com/testMovielucky/coastal-racer)
 
 Портретный технический стенд браузерной 3D-гонки. Шесть простых физических кузовов, дорога, Havok, пауза, тестовый импульс, сброс и JSON-диагностика. Это не готовая гонка и не финальные ассеты.
 
