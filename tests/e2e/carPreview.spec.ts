@@ -9,6 +9,8 @@ async function open(page: Page) {
 }
 
 test('accepted v006 renders locally with its geometry, materials and named pivots', async ({ page }, testInfo) => {
+  // Four software-rendered screenshots can take >45s in CI; this is an artifact deadline, not an FPS criterion.
+  test.setTimeout(90_000);
   const errors: string[] = [];
   const requests: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
@@ -31,7 +33,7 @@ test('accepted v006 renders locally with its geometry, materials and named pivot
   await testInfo.attach('browser-report', { body: JSON.stringify(result, null, 2), contentType: 'application/json' });
   for (const view of ['game', 'rear', 'front', 'side']) {
     await page.locator('[data-view="' + view + '"]').click();
-    await page.screenshot({ path: testInfo.outputPath(view + '.png'), fullPage: false });
+    await page.screenshot({ path: testInfo.outputPath(view + '.png'), fullPage: false, scale: 'css' });
   }
 });
 
