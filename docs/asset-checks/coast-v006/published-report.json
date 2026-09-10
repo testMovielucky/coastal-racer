@@ -1,0 +1,1303 @@
+{
+  "url": "https://testmovielucky.github.io/coastal-racer/?view=coast-v006",
+  "checks": {
+    "http200": true,
+    "revision": true,
+    "imports": 15,
+    "externalRequests": 0,
+    "pageErrors": 0,
+    "fullPortraitCarBounds": true,
+    "referenceCamera": true
+  },
+  "consoleErrors": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://testmovielucky.github.io/favicon.ico",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    }
+  ],
+  "report": {
+    "schemaVersion": 1,
+    "build": {
+      "version": "0.0.1",
+      "revision": "7b3ebde",
+      "builtAt": "2026-09-10T10:25:08.751Z"
+    },
+    "capturedAt": "2026-09-10T10:39:52.849Z",
+    "scenario": "coast-art-sample-40m",
+    "coast": {
+      "seed": 909061,
+      "scenario": "coast-art-sample-40m",
+      "assetRevision": "v006",
+      "lightingReference": "v007",
+      "layoutSha256": "ddc2eaa759b9abf10cdc53a2a129df10b8dfa843c7c9d4806410c82832e1410b",
+      "placementCount": 76,
+      "moduleCount": 14,
+      "lengthMetres": 40,
+      "carSha256": "ada35c65b99507aa1f019be017b2c7d0ba3f9e222bc7e496686e13539c7c38dd",
+      "carPosition": [
+        -1.850000023841858,
+        0.010999999940395355,
+        -11
+      ],
+      "carProjectedBounds": [
+        [
+          0.6715240354231513,
+          0.889557891738525,
+          0.9899390143418244
+        ],
+        [
+          0.6205648404836537,
+          0.626145251472209,
+          0.9929399909403751
+        ],
+        [
+          0.6792326871114438,
+          0.7475237208506215,
+          0.9894850523460259
+        ],
+        [
+          0.6243232958767746,
+          0.5194128477040866,
+          0.9927186555266292
+        ],
+        [
+          0.32847603629377964,
+          0.889557891738525,
+          0.9899390143418244
+        ],
+        [
+          0.379435206580324,
+          0.626145251472209,
+          0.9929399909403751
+        ],
+        [
+          0.3207673863373769,
+          0.7475237208506215,
+          0.9894850523460259
+        ],
+        [
+          0.37567675161998976,
+          0.5194128477040866,
+          0.9927186555266292
+        ]
+      ],
+      "environmentTriangles": 48216,
+      "carTriangles": 21114,
+      "placements": [
+        {
+          "asset": "road_straight_8m",
+          "position": [
+            0,
+            0,
+            16
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "promenade_8m",
+          "position": [
+            5.7,
+            0,
+            16
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "inland_strip_8m",
+          "position": [
+            -5.9,
+            0,
+            16
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "beach_8m",
+          "position": [
+            6.9,
+            0,
+            16
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "water_8m",
+          "position": [
+            6.9,
+            0,
+            16
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "road_straight_8m",
+          "position": [
+            0,
+            0,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "promenade_8m",
+          "position": [
+            5.7,
+            0,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "inland_strip_8m",
+          "position": [
+            -5.9,
+            0,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "beach_8m",
+          "position": [
+            6.9,
+            0,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "water_8m",
+          "position": [
+            6.9,
+            0,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "road_straight_8m",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "promenade_8m",
+          "position": [
+            5.7,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "inland_strip_8m",
+          "position": [
+            -5.9,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "beach_8m",
+          "position": [
+            6.9,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "water_8m",
+          "position": [
+            6.9,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "road_straight_8m",
+          "position": [
+            0,
+            0,
+            -8
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "promenade_8m",
+          "position": [
+            5.7,
+            0,
+            -8
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "inland_strip_8m",
+          "position": [
+            -5.9,
+            0,
+            -8
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "beach_8m",
+          "position": [
+            6.9,
+            0,
+            -8
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "water_8m",
+          "position": [
+            6.9,
+            0,
+            -8
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "road_straight_8m",
+          "position": [
+            0,
+            0,
+            -16
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "promenade_8m",
+          "position": [
+            5.7,
+            0,
+            -16
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "inland_strip_8m",
+          "position": [
+            -5.9,
+            0,
+            -16
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "beach_8m",
+          "position": [
+            6.9,
+            0,
+            -16
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "water_8m",
+          "position": [
+            6.9,
+            0,
+            -16
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "barrier_4m",
+          "position": [
+            4.44,
+            0,
+            18
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "barrier_4m",
+          "position": [
+            4.44,
+            0,
+            14
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "barrier_4m",
+          "position": [
+            4.44,
+            0,
+            10
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "barrier_4m",
+          "position": [
+            4.44,
+            0,
+            6
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "barrier_4m",
+          "position": [
+            4.44,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "barrier_4m",
+          "position": [
+            4.44,
+            0,
+            -2
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "barrier_4m",
+          "position": [
+            4.44,
+            0,
+            -6
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "barrier_4m",
+          "position": [
+            4.44,
+            0,
+            -10
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "barrier_4m",
+          "position": [
+            4.44,
+            0,
+            -14
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "barrier_4m",
+          "position": [
+            4.44,
+            0,
+            -18
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "palm_a",
+          "position": [
+            7.8,
+            -0.04,
+            13
+          ],
+          "rotation": [
+            0,
+            0.19866933079506122,
+            0,
+            0.9800665778412416
+          ],
+          "scale": 1.04
+        },
+        {
+          "asset": "palm_a",
+          "position": [
+            8.1,
+            -0.04,
+            -3
+          ],
+          "rotation": [
+            0,
+            0.9757233578266591,
+            0,
+            0.2190066870930415
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "palm_a",
+          "position": [
+            -6,
+            -0.01,
+            5
+          ],
+          "rotation": [
+            0,
+            0.5646424733950354,
+            0,
+            0.8253356149096783
+          ],
+          "scale": 1.08
+        },
+        {
+          "asset": "palm_a",
+          "position": [
+            -6.1,
+            -0.01,
+            -13
+          ],
+          "rotation": [
+            0,
+            0.9612752029752999,
+            0,
+            -0.27559024682451294
+          ],
+          "scale": 0.94
+        },
+        {
+          "asset": "palm_a",
+          "position": [
+            8,
+            -0.04,
+            -16
+          ],
+          "rotation": [
+            0,
+            0.5984721441039565,
+            0,
+            -0.8011436155469337
+          ],
+          "scale": 0.87
+        },
+        {
+          "asset": "bollard",
+          "position": [
+            6.6,
+            0.12,
+            16
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "bollard",
+          "position": [
+            6.6,
+            0.12,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "bollard",
+          "position": [
+            6.6,
+            0.12,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "bollard",
+          "position": [
+            6.6,
+            0.12,
+            -8
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "bollard",
+          "position": [
+            6.6,
+            0.12,
+            -16
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "rock_cluster",
+          "position": [
+            10.3,
+            -0.05,
+            15
+          ],
+          "rotation": [
+            0,
+            0.29552020666133955,
+            0,
+            0.955336489125606
+          ],
+          "scale": 1.2320000000000002
+        },
+        {
+          "asset": "rock_cluster",
+          "position": [
+            9.2,
+            -0.06,
+            1.4
+          ],
+          "rotation": [
+            0,
+            0.7833269096274834,
+            0,
+            0.6216099682706644
+          ],
+          "scale": 0.8960000000000001
+        },
+        {
+          "asset": "rock_cluster",
+          "position": [
+            10.7,
+            -0.05,
+            -14
+          ],
+          "rotation": [
+            0,
+            0.9974949866040544,
+            0,
+            0.0707372016677029
+          ],
+          "scale": 1.288
+        },
+        {
+          "asset": "rock_cluster",
+          "position": [
+            -6.2,
+            0,
+            16
+          ],
+          "rotation": [
+            0,
+            0.34289780745545134,
+            0,
+            0.9393727128473789
+          ],
+          "scale": 0.8960000000000001
+        },
+        {
+          "asset": "rock_cluster",
+          "position": [
+            -6.1,
+            0,
+            -5
+          ],
+          "rotation": [
+            0,
+            0.8414709848078965,
+            0,
+            0.5403023058681398
+          ],
+          "scale": 0.7280000000000001
+        },
+        {
+          "asset": "rock_cluster",
+          "position": [
+            -6.5,
+            0,
+            -17
+          ],
+          "rotation": [
+            0,
+            0.9092974268256817,
+            0,
+            -0.4161468365471424
+          ],
+          "scale": 1.064
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            8.2,
+            -0.025,
+            18
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1.19
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            9.3,
+            -0.025,
+            12
+          ],
+          "rotation": [
+            0,
+            0.43946231380585327,
+            0,
+            0.8982610281785611
+          ],
+          "scale": 1.4
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            8.2,
+            -0.025,
+            6
+          ],
+          "rotation": [
+            0,
+            0.7895037396899505,
+            0,
+            0.6137457494888116
+          ],
+          "scale": 1.0499999999999998
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            10.6,
+            -0.025,
+            0
+          ],
+          "rotation": [
+            0,
+            0.9788985681235746,
+            0,
+            0.20434674777352183
+          ],
+          "scale": 1.54
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            8,
+            -0.025,
+            -6
+          ],
+          "rotation": [
+            0,
+            0.9691091288804563,
+            0,
+            -0.24663230996883403
+          ],
+          "scale": 1.1199999999999999
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            10.2,
+            -0.025,
+            -16
+          ],
+          "rotation": [
+            0,
+            0.7621273569272023,
+            0,
+            -0.6474271324428386
+          ],
+          "scale": 1.26
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            -6,
+            -0.025,
+            18
+          ],
+          "rotation": [
+            0,
+            0.4000694775924195,
+            0,
+            -0.9164848133487693
+          ],
+          "scale": 1.4
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            -6.6,
+            -0.025,
+            10
+          ],
+          "rotation": [
+            0,
+            -0.043393716357149184,
+            0,
+            -0.9990580490545659
+          ],
+          "scale": 1.0499999999999998
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            -6,
+            -0.025,
+            1
+          ],
+          "rotation": [
+            0,
+            -0.47802724613534286,
+            0,
+            -0.878345007358874
+          ],
+          "scale": 1.4
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            -6.2,
+            -0.025,
+            -6
+          ],
+          "rotation": [
+            0,
+            -0.8153927748646489,
+            0,
+            -0.5789081297568104
+          ],
+          "scale": 0.9799999999999999
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            -6.2,
+            -0.025,
+            -17
+          ],
+          "rotation": [
+            0,
+            -0.9868438585032365,
+            0,
+            -0.1616762163536865
+          ],
+          "scale": 1.4
+        },
+        {
+          "asset": "flower_cluster",
+          "position": [
+            8.3,
+            -0.01,
+            10
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 1.22
+        },
+        {
+          "asset": "flower_cluster",
+          "position": [
+            9.1,
+            -0.01,
+            -1
+          ],
+          "rotation": [
+            0,
+            0.7512804051402927,
+            0,
+            0.6599831458849822
+          ],
+          "scale": 1.22
+        },
+        {
+          "asset": "flower_cluster",
+          "position": [
+            -6,
+            -0.01,
+            12
+          ],
+          "rotation": [
+            0,
+            0.9916648104524686,
+            0,
+            -0.12884449429552464
+          ],
+          "scale": 1.35
+        },
+        {
+          "asset": "flower_cluster",
+          "position": [
+            -6.2,
+            -0.01,
+            -2
+          ],
+          "rotation": [
+            0,
+            0.557683717391417,
+            0,
+            -0.8300535352352221
+          ],
+          "scale": 1.35
+        },
+        {
+          "asset": "flower_cluster",
+          "position": [
+            -6,
+            -0.01,
+            -16
+          ],
+          "rotation": [
+            0,
+            -0.2555411020268312,
+            0,
+            -0.9667981925794611
+          ],
+          "scale": 1.35
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            8.35,
+            -0.04,
+            12.8
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": 0.55
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            8.65,
+            -0.04,
+            -3.2
+          ],
+          "rotation": [
+            0,
+            0.6248973167276999,
+            0,
+            0.7807069511324468
+          ],
+          "scale": 0.55
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            -5.45,
+            -0.01,
+            4.8
+          ],
+          "rotation": [
+            0,
+            0.9757233578266591,
+            0,
+            0.2190066870930415
+          ],
+          "scale": 0.55
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            -5.55,
+            -0.01,
+            -13.2
+          ],
+          "rotation": [
+            0,
+            0.898610698947429,
+            0,
+            -0.4387468652163946
+          ],
+          "scale": 0.55
+        },
+        {
+          "asset": "agave_cluster",
+          "position": [
+            8.55,
+            -0.04,
+            -16.2
+          ],
+          "rotation": [
+            0,
+            0.4273798802338298,
+            0,
+            -0.9040721420170612
+          ],
+          "scale": 0.55
+        },
+        {
+          "asset": "lifeguard_tower",
+          "position": [
+            10.6,
+            -0.07,
+            7.5
+          ],
+          "rotation": [
+            0,
+            -0.17364817766693033,
+            0,
+            0.984807753012208
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "beach_umbrella",
+          "position": [
+            10,
+            -0.07,
+            -8.4
+          ],
+          "rotation": [
+            0,
+            0.04997916927067833,
+            0,
+            0.9987502603949663
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "beach_lounger",
+          "position": [
+            9.35,
+            -0.07,
+            -9.55
+          ],
+          "rotation": [
+            0,
+            -0.13052619222005157,
+            0,
+            0.9914448613738104
+          ],
+          "scale": 1
+        },
+        {
+          "asset": "beach_lounger",
+          "position": [
+            10.75,
+            -0.07,
+            -9.55
+          ],
+          "rotation": [
+            0,
+            -0.13052619222005157,
+            0,
+            0.9914448613738104
+          ],
+          "scale": 1
+        }
+      ],
+      "view": "game",
+      "camera": {
+        "position": [
+          -1.8499999999999992,
+          6.200000000000002,
+          -21.5
+        ],
+        "target": [
+          -1.85,
+          0.4,
+          -6
+        ],
+        "fov": 0.72
+      },
+      "lighting": {
+        "sunIntensity": 3.2,
+        "exposure": 1.515716566510398,
+        "toneMapping": "KHR PBR Neutral",
+        "environmentIntensity": 0.65,
+        "shadowMapSize": 2048,
+        "shadowFilter": "PCSS medium",
+        "lightSizeUVRatio": 0.035,
+        "staticShadowMap": true
+      },
+      "resources": {
+        "meshes": 219,
+        "materials": 30,
+        "textures": 3,
+        "shadowCasters": 101
+      },
+      "physicsEnabled": false
+    },
+    "preparationMs": 3382,
+    "paused": false,
+    "canvas": {
+      "width": 938,
+      "height": 1064
+    },
+    "renderer": {
+      "vendor": "Google Inc. (Google)",
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+    },
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "frames": {
+      "intervals": {
+        "samples": 5,
+        "mean": 226.7,
+        "p95": 784.7000000029802,
+        "p99": 784.7000000029802,
+        "max": 784.7000000029802,
+        "over25ms": 2
+      },
+      "cpuWork": {
+        "samples": 5,
+        "mean": 2.319999998807907,
+        "p95": 3,
+        "p99": 3,
+        "max": 3,
+        "over25ms": 0
+      },
+      "fps": 4.411116012351125,
+      "totalFrames": 5,
+      "totalLongFrames": 2,
+      "windowCapacity": 1800
+    },
+    "drawCalls": 96,
+    "notes": "Static 40m sample, original v006 layout + car; lighting reference v007. PCSS shadows and local sky reflections approximate Cycles. CPU timings exclude GPU execution; no device FPS acceptance."
+  }
+}
