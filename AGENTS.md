@@ -1,6 +1,6 @@
 # Coastal Racer
 
-Read docs/GAME_IMPLEMENTATION_PLAN.md before implementation. Work one requested stage at a time. Current scope: stage 0 plus the explicitly requested visual Babylon preview of accepted car v006. No race-controller implementation.
+Read docs/GAME_IMPLEMENTATION_PLAN.md before implementation. Work one requested stage at a time. Current scope: stage 0 plus the explicitly requested visual Babylon previews of accepted car v006 and the explicitly requested static 40m coast sample-v006 with v007 lighting reference. No race-controller implementation.
 
 - TypeScript strict + Vite + ordinary Babylon.js, WebGL2, Babylon Physics V2 + Havok. Keep exact versions and package-lock.json.
 - No stack/control/MVP changes without a recorded decision. No custom collision solver.

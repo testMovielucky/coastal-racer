@@ -13,11 +13,12 @@ await copyFile('node_modules/@babylonjs/havok/LICENSE', 'dist/licenses/Havok.txt
 await copyFile('node_modules/@babylonjs/loaders/license.md', 'dist/licenses/Babylon-loaders.txt');
 const files = await walk('dist');
 const car = JSON.parse(await readFile('config/car-v006.json', 'utf8'));
-for (const file of [car.model, car.collider]) {
+const coast = JSON.parse(await readFile('config/coast-v006.json', 'utf8'));
+for (const file of [car.model, car.collider, coast.layout, ...coast.assets]) {
   const bytes = await readFile(join('dist', file.path));
   if (createHash('sha256').update(bytes).digest('hex') !== file.sha256) throw new Error('Changed accepted asset: ' + file.path);
 }
-if (files.filter(file => file.endsWith('.glb')).length !== 2) throw new Error('Only the active v006 model and collider belong in dist');
+if (files.filter(file => file.endsWith('.glb')).length !== 2 + coast.assets.length) throw new Error('Only selected car and coast GLBs belong in dist');
 
 const wasmFiles = files.filter(file => file.endsWith('.wasm'));
 if (wasmFiles.length !== 1) throw new Error(`Expected one bundled WASM, found ${wasmFiles.length}`);

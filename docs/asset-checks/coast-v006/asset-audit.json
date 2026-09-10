@@ -1,0 +1,105 @@
+{
+  "checkedAt": "2026-09-10T10:05:31.765Z",
+  "manifestFiles": 45,
+  "glbs": [
+    {
+      "id": "road_straight_8m",
+      "triangles": 84,
+      "sha256": "7e896d03fc9c5899195bd095b91cf0a7eb009ef1f97cee5176f0d4f53b253423",
+      "materials": 2,
+      "embeddedImages": 0
+    },
+    {
+      "id": "promenade_8m",
+      "triangles": 324,
+      "sha256": "7b358cda266db3f4266e1601df4434b1aa4b68091c3b80ed257f7e94ad41ffde",
+      "materials": 1,
+      "embeddedImages": 0
+    },
+    {
+      "id": "barrier_4m",
+      "triangles": 108,
+      "sha256": "d7d71bb183472c5122da800eca8b4cce937db92249965e42695f2bdfc0e11a07",
+      "materials": 2,
+      "embeddedImages": 0
+    },
+    {
+      "id": "inland_strip_8m",
+      "triangles": 80,
+      "sha256": "1a2636a35b60a1d6971d00be3c02a741c1fffa18e4a1a3d71fdfab1f821dfa8d",
+      "materials": 2,
+      "embeddedImages": 0
+    },
+    {
+      "id": "beach_8m",
+      "triangles": 320,
+      "sha256": "69b710a90cb99ccb1893c4e1feca7f8e39c7d257ea211adf088a34a302c06ea9",
+      "materials": 1,
+      "embeddedImages": 0
+    },
+    {
+      "id": "water_8m",
+      "triangles": 1792,
+      "sha256": "eb339ea0ef4eb716746488466acdf608ff4601a28ee942d8cfe906320028360c",
+      "materials": 2,
+      "embeddedImages": 1
+    },
+    {
+      "id": "palm_a",
+      "triangles": 5004,
+      "sha256": "dbad4fa708f9bc09e8d854d02ebbd36ab13b7f167f6b9d90d49fbf49ad05c14e",
+      "materials": 2,
+      "embeddedImages": 0
+    },
+    {
+      "id": "bollard",
+      "triangles": 408,
+      "sha256": "b4aeabf004365b205723e870b30844ffdf521cb9a294eb35a8adc5b865fe8c17",
+      "materials": 3,
+      "embeddedImages": 0
+    },
+    {
+      "id": "rock_cluster",
+      "triangles": 160,
+      "sha256": "d69442dedebc0a6b316d9ee4ba172d60431a10abf2d82777770b707ad6a5bf6a",
+      "materials": 1,
+      "embeddedImages": 0
+    },
+    {
+      "id": "agave_cluster",
+      "triangles": 176,
+      "sha256": "3d32714b2e55307f64870cc0fa0bd8d8eaade00fc95e5c2cc07678898ec32107",
+      "materials": 1,
+      "embeddedImages": 0
+    },
+    {
+      "id": "flower_cluster",
+      "triangles": 322,
+      "sha256": "74cc8788247905f21678ef507d2451da52100eca53a5d698514c2fc3ea964561",
+      "materials": 2,
+      "embeddedImages": 0
+    },
+    {
+      "id": "beach_umbrella",
+      "triangles": 388,
+      "sha256": "035b156422d1c57c032215928cf92f737a4b8dac98f0b3180233918ad95c0bfd",
+      "materials": 2,
+      "embeddedImages": 0
+    },
+    {
+      "id": "beach_lounger",
+      "triangles": 140,
+      "sha256": "b6282f01b37fed57c8a50e6042b1fcaafa2b45e906f7a400c7bb6365fd8bd997",
+      "materials": 2,
+      "embeddedImages": 0
+    },
+    {
+      "id": "lifeguard_tower",
+      "triangles": 1022,
+      "sha256": "519ca18d77928d2dd7e699c9f2e21bf1ec3e1b998290f05622c078128568ce31",
+      "materials": 2,
+      "embeddedImages": 0
+    }
+  ],
+  "carSha256": "ada35c65b99507aa1f019be017b2c7d0ba3f9e222bc7e496686e13539c7c38dd"
+}

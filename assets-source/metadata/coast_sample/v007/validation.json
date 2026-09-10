@@ -1,0 +1,32 @@
+{
+  "revision": "v007",
+  "baseline": "v006",
+  "type": "Blender review lighting only",
+  "seed": 909061,
+  "scenario": "coast-art-sample-40m",
+  "blender": "5.2.1 LTS",
+  "sun_angle_before_radians": 0.017999999225139618,
+  "sun_angle_after_radians": 0.06981316953897476,
+  "sun_angle_after_degrees": 4,
+  "cycles_samples": 64,
+  "sun_energy": 3.200000047683716,
+  "exposure": 0.6000000238418579,
+  "view_transform": "Khronos PBR Neutral",
+  "previous_manifest_files_unchanged": 33,
+  "car_bytes_unchanged": true,
+  "materials_geometry_placements": "loaded unchanged from v006",
+  "exports_reused": "public/assets/themes/coast/sample-v006/sample_layout.json",
+  "new_glb_exports": 0,
+  "render_names": [
+    "overview",
+    "gameplay",
+    "coast_detail",
+    "tower_detail",
+    "gameplay_composed"
+  ],
+  "not_verified": [
+    "human artistic approval",
+    "Babylon shadows",
+    "device performance"
+  ]
+}

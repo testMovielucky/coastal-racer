@@ -1,0 +1,80 @@
+{
+  "revision": "v006",
+  "baseline": "v005",
+  "status": "passed",
+  "previous_manifest_files_unchanged": 30,
+  "placements_road_axes_colliders_unchanged": true,
+  "car_bytes_unchanged": true,
+  "assets": {
+    "road_straight_8m": {
+      "positions_normals_uv_winding_unchanged": true,
+      "hierarchy_unchanged": true,
+      "pbr_export_matches": true
+    },
+    "promenade_8m": {
+      "positions_normals_uv_winding_unchanged": true,
+      "hierarchy_unchanged": true,
+      "pbr_export_matches": true
+    },
+    "barrier_4m": {
+      "positions_normals_uv_winding_unchanged": true,
+      "hierarchy_unchanged": true,
+      "pbr_export_matches": true
+    },
+    "inland_strip_8m": {
+      "positions_normals_uv_winding_unchanged": true,
+      "hierarchy_unchanged": true,
+      "pbr_export_matches": true
+    },
+    "beach_8m": {
+      "positions_normals_uv_winding_unchanged": true,
+      "hierarchy_unchanged": true,
+      "pbr_export_matches": true
+    },
+    "water_8m": {
+      "positions_normals_uv_winding_unchanged": true,
+      "hierarchy_unchanged": true,
+      "pbr_export_matches": true
+    },
+    "palm_a": {
+      "positions_normals_uv_winding_unchanged": true,
+      "hierarchy_unchanged": true,
+      "pbr_export_matches": true
+    },
+    "bollard": {
+      "positions_normals_uv_winding_unchanged": true,
+      "hierarchy_unchanged": true,
+      "pbr_export_matches": true
+    },
+    "rock_cluster": {
+      "positions_normals_uv_winding_unchanged": true,
+      "hierarchy_unchanged": true,
+      "pbr_export_matches": true
+    },
+    "agave_cluster": {
+      "positions_normals_uv_winding_unchanged": true,
+      "hierarchy_unchanged": true,
+      "pbr_export_matches": true
+    },
+    "flower_cluster": {
+      "positions_normals_uv_winding_unchanged": true,
+      "hierarchy_unchanged": true,
+      "pbr_export_matches": true
+    },
+    "beach_umbrella": {
+      "positions_normals_uv_winding_unchanged": true,
+      "hierarchy_unchanged": true,
+      "pbr_export_matches": true
+    },
+    "beach_lounger": {
+      "positions_normals_uv_winding_unchanged": true,
+      "hierarchy_unchanged": true,
+      "pbr_export_matches": true
+    },
+    "lifeguard_tower": {
+      "positions_normals_uv_winding_unchanged": true,
+      "hierarchy_unchanged": true,
+      "pbr_export_matches": true
+    }
+  }
+}

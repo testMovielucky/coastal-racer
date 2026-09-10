@@ -20,3 +20,7 @@
 @media (pointer: coarse) and (min-width: 601px) { .car-panel { width: min(100%, 650px); justify-self: center; } }
 @media (pointer: coarse) and (orientation: landscape) { .car-shell { grid-template-rows: auto minmax(0, 1fr); }.car-panel { display: none; } }
 .car-link { display: block; color: #d9edb0; font-size: 12px; padding: 8px; text-align: center; }
+
+#coast-canvas { width: 100%; height: 100%; }
+.coast-shell .car-header h1 { font-size: 21px; }
+.coast-shell .car-bottom { gap: 6px; }

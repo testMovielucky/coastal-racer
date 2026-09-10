@@ -1,0 +1,263 @@
+{
+  "asset_set": "coast_sample",
+  "version": "v006",
+  "scenario": "coast-art-sample-40m",
+  "seed": 909061,
+  "blender": "5.2.1 LTS",
+  "unique_geometry_triangles": 10328,
+  "sample_environment_triangles": 48216,
+  "sample_with_car_triangles": 69330,
+  "module_glb_total_bytes": 1443368,
+  "unique_environment_materials": [
+    "Coast_Asphalt",
+    "Coast_Foliage",
+    "Coast_Metal",
+    "Coast_Mineral",
+    "Coast_Painted",
+    "Coast_Water"
+  ],
+  "texture_count": 1,
+  "texture_resolution": [
+    1024,
+    1024
+  ],
+  "asset_count": 14,
+  "placement_count": 76,
+  "assets": {
+    "road_straight_8m": {
+      "triangles": 84,
+      "bytes": 8804,
+      "materials": [
+        "Coast_Asphalt",
+        "Coast_Mineral"
+      ],
+      "material_count": 2,
+      "primitives": 2,
+      "degenerate_triangles": 0,
+      "end_seam": {
+        "matching_end_profiles": true,
+        "profile_vertex_positions": 18,
+        "length_m": 8
+      },
+      "sha256": "7e896d03fc9c5899195bd095b91cf0a7eb009ef1f97cee5176f0d4f53b253423",
+      "blender_import": true
+    },
+    "promenade_8m": {
+      "triangles": 324,
+      "bytes": 26744,
+      "materials": [
+        "Coast_Mineral"
+      ],
+      "material_count": 1,
+      "primitives": 1,
+      "degenerate_triangles": 0,
+      "end_seam": {
+        "matching_end_profiles": true,
+        "profile_vertex_positions": 10,
+        "length_m": 8
+      },
+      "sha256": "7b358cda266db3f4266e1601df4434b1aa4b68091c3b80ed257f7e94ad41ffde",
+      "blender_import": true
+    },
+    "barrier_4m": {
+      "triangles": 108,
+      "bytes": 10660,
+      "materials": [
+        "Coast_Mineral",
+        "Coast_Painted"
+      ],
+      "material_count": 2,
+      "primitives": 2,
+      "degenerate_triangles": 0,
+      "end_seam": {
+        "matching_end_profiles": true,
+        "profile_vertex_positions": 12,
+        "length_m": 4
+      },
+      "sha256": "d7d71bb183472c5122da800eca8b4cce937db92249965e42695f2bdfc0e11a07",
+      "blender_import": true
+    },
+    "inland_strip_8m": {
+      "triangles": 80,
+      "bytes": 10544,
+      "materials": [
+        "Coast_Mineral",
+        "Coast_Foliage"
+      ],
+      "material_count": 2,
+      "primitives": 2,
+      "degenerate_triangles": 0,
+      "end_seam": {
+        "matching_end_profiles": true,
+        "profile_vertex_positions": 8,
+        "length_m": 8
+      },
+      "sha256": "1a2636a35b60a1d6971d00be3c02a741c1fffa18e4a1a3d71fdfab1f821dfa8d",
+      "blender_import": true
+    },
+    "beach_8m": {
+      "triangles": 320,
+      "bytes": 14076,
+      "materials": [
+        "Coast_Mineral"
+      ],
+      "material_count": 1,
+      "primitives": 1,
+      "degenerate_triangles": 0,
+      "end_seam": {
+        "matching_end_profiles": true,
+        "profile_vertex_positions": 6,
+        "length_m": 8
+      },
+      "sha256": "69b710a90cb99ccb1893c4e1feca7f8e39c7d257ea211adf088a34a302c06ea9",
+      "blender_import": true
+    },
+    "water_8m": {
+      "triangles": 1792,
+      "bytes": 914000,
+      "materials": [
+        "Coast_Water",
+        "Coast_Mineral"
+      ],
+      "material_count": 2,
+      "primitives": 2,
+      "degenerate_triangles": 0,
+      "end_seam": {
+        "matching_end_profiles": true,
+        "profile_vertex_positions": 27,
+        "length_m": 8
+      },
+      "sha256": "eb339ea0ef4eb716746488466acdf608ff4601a28ee942d8cfe906320028360c",
+      "blender_import": true,
+      "embedded_texture_matches_source_max_error": 0.0,
+      "texture_repeat_row_max_error": 0.0
+    },
+    "palm_a": {
+      "triangles": 5004,
+      "bytes": 248800,
+      "materials": [
+        "Coast_Mineral",
+        "Coast_Foliage"
+      ],
+      "material_count": 2,
+      "primitives": 2,
+      "degenerate_triangles": 0,
+      "end_seam": null,
+      "sha256": "dbad4fa708f9bc09e8d854d02ebbd36ab13b7f167f6b9d90d49fbf49ad05c14e",
+      "blender_import": true
+    },
+    "bollard": {
+      "triangles": 408,
+      "bytes": 41764,
+      "materials": [
+        "Coast_Mineral",
+        "Coast_Metal",
+        "Coast_Painted"
+      ],
+      "material_count": 3,
+      "primitives": 3,
+      "degenerate_triangles": 0,
+      "end_seam": null,
+      "sha256": "b4aeabf004365b205723e870b30844ffdf521cb9a294eb35a8adc5b865fe8c17",
+      "blender_import": true
+    },
+    "rock_cluster": {
+      "triangles": 160,
+      "bytes": 23544,
+      "materials": [
+        "Coast_Mineral"
+      ],
+      "material_count": 1,
+      "primitives": 1,
+      "degenerate_triangles": 0,
+      "end_seam": null,
+      "sha256": "d69442dedebc0a6b316d9ee4ba172d60431a10abf2d82777770b707ad6a5bf6a",
+      "blender_import": true
+    },
+    "agave_cluster": {
+      "triangles": 176,
+      "bytes": 9488,
+      "materials": [
+        "Coast_Foliage"
+      ],
+      "material_count": 1,
+      "primitives": 1,
+      "degenerate_triangles": 0,
+      "end_seam": null,
+      "sha256": "3d32714b2e55307f64870cc0fa0bd8d8eaade00fc95e5c2cc07678898ec32107",
+      "blender_import": true
+    },
+    "flower_cluster": {
+      "triangles": 322,
+      "bytes": 20488,
+      "materials": [
+        "Coast_Foliage",
+        "Coast_Painted"
+      ],
+      "material_count": 2,
+      "primitives": 2,
+      "degenerate_triangles": 0,
+      "end_seam": null,
+      "sha256": "74cc8788247905f21678ef507d2451da52100eca53a5d698514c2fc3ea964561",
+      "blender_import": true
+    },
+    "beach_umbrella": {
+      "triangles": 388,
+      "bytes": 14432,
+      "materials": [
+        "Coast_Metal",
+        "Coast_Painted"
+      ],
+      "material_count": 2,
+      "primitives": 2,
+      "degenerate_triangles": 0,
+      "end_seam": null,
+      "sha256": "035b156422d1c57c032215928cf92f737a4b8dac98f0b3180233918ad95c0bfd",
+      "blender_import": true
+    },
+    "beach_lounger": {
+      "triangles": 140,
+      "bytes": 9788,
+      "materials": [
+        "Coast_Metal",
+        "Coast_Painted"
+      ],
+      "material_count": 2,
+      "primitives": 2,
+      "degenerate_triangles": 0,
+      "end_seam": null,
+      "sha256": "b6282f01b37fed57c8a50e6042b1fcaafa2b45e906f7a400c7bb6365fd8bd997",
+      "blender_import": true
+    },
+    "lifeguard_tower": {
+      "triangles": 1022,
+      "bytes": 90236,
+      "materials": [
+        "Coast_Painted",
+        "Coast_Metal"
+      ],
+      "material_count": 2,
+      "primitives": 2,
+      "degenerate_triangles": 0,
+      "end_seam": null,
+      "sha256": "519ca18d77928d2dd7e699c9f2e21bf1ec3e1b998290f05622c078128568ce31",
+      "blender_import": true
+    }
+  },
+  "checks": {
+    "binary_accessors_indices_colors_normals": true,
+    "no_external_assets": true,
+    "zero_degenerate_triangles": true,
+    "module_connections": true,
+    "road_adjacency": true,
+    "decor_outside_road": true,
+    "car_unchanged": true,
+    "blender_import_all_modules": true
+  },
+  "not_verified": [
+    "human artistic approval",
+    "Babylon rendering",
+    "physics collider integration",
+    "iPhone/iPad performance"
+  ]
+}

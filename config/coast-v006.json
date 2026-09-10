@@ -1,0 +1,107 @@
+{
+  "layout": {
+    "path": "assets/themes/coast/sample-v006/sample_layout.json",
+    "bytes": 27891,
+    "sha256": "ddc2eaa759b9abf10cdc53a2a129df10b8dfa843c7c9d4806410c82832e1410b"
+  },
+  "assets": [
+    {
+      "id": "road_straight_8m",
+      "path": "assets/themes/coast/sample-v006/road_straight_8m.glb",
+      "bytes": 8804,
+      "sha256": "7e896d03fc9c5899195bd095b91cf0a7eb009ef1f97cee5176f0d4f53b253423",
+      "triangles": 84
+    },
+    {
+      "id": "promenade_8m",
+      "path": "assets/themes/coast/sample-v006/promenade_8m.glb",
+      "bytes": 26744,
+      "sha256": "7b358cda266db3f4266e1601df4434b1aa4b68091c3b80ed257f7e94ad41ffde",
+      "triangles": 324
+    },
+    {
+      "id": "barrier_4m",
+      "path": "assets/themes/coast/sample-v006/barrier_4m.glb",
+      "bytes": 10660,
+      "sha256": "d7d71bb183472c5122da800eca8b4cce937db92249965e42695f2bdfc0e11a07",
+      "triangles": 108
+    },
+    {
+      "id": "inland_strip_8m",
+      "path": "assets/themes/coast/sample-v006/inland_strip_8m.glb",
+      "bytes": 10544,
+      "sha256": "1a2636a35b60a1d6971d00be3c02a741c1fffa18e4a1a3d71fdfab1f821dfa8d",
+      "triangles": 80
+    },
+    {
+      "id": "beach_8m",
+      "path": "assets/themes/coast/sample-v006/beach_8m.glb",
+      "bytes": 14076,
+      "sha256": "69b710a90cb99ccb1893c4e1feca7f8e39c7d257ea211adf088a34a302c06ea9",
+      "triangles": 320
+    },
+    {
+      "id": "water_8m",
+      "path": "assets/themes/coast/sample-v006/water_8m.glb",
+      "bytes": 914000,
+      "sha256": "eb339ea0ef4eb716746488466acdf608ff4601a28ee942d8cfe906320028360c",
+      "triangles": 1792
+    },
+    {
+      "id": "palm_a",
+      "path": "assets/themes/coast/sample-v006/palm_a.glb",
+      "bytes": 248800,
+      "sha256": "dbad4fa708f9bc09e8d854d02ebbd36ab13b7f167f6b9d90d49fbf49ad05c14e",
+      "triangles": 5004
+    },
+    {
+      "id": "bollard",
+      "path": "assets/themes/coast/sample-v006/bollard.glb",
+      "bytes": 41764,
+      "sha256": "b4aeabf004365b205723e870b30844ffdf521cb9a294eb35a8adc5b865fe8c17",
+      "triangles": 408
+    },
+    {
+      "id": "rock_cluster",
+      "path": "assets/themes/coast/sample-v006/rock_cluster.glb",
+      "bytes": 23544,
+      "sha256": "d69442dedebc0a6b316d9ee4ba172d60431a10abf2d82777770b707ad6a5bf6a",
+      "triangles": 160
+    },
+    {
+      "id": "agave_cluster",
+      "path": "assets/themes/coast/sample-v006/agave_cluster.glb",
+      "bytes": 9488,
+      "sha256": "3d32714b2e55307f64870cc0fa0bd8d8eaade00fc95e5c2cc07678898ec32107",
+      "triangles": 176
+    },
+    {
+      "id": "flower_cluster",
+      "path": "assets/themes/coast/sample-v006/flower_cluster.glb",
+      "bytes": 20488,
+      "sha256": "74cc8788247905f21678ef507d2451da52100eca53a5d698514c2fc3ea964561",
+      "triangles": 322
+    },
+    {
+      "id": "beach_umbrella",
+      "path": "assets/themes/coast/sample-v006/beach_umbrella.glb",
+      "bytes": 14432,
+      "sha256": "035b156422d1c57c032215928cf92f737a4b8dac98f0b3180233918ad95c0bfd",
+      "triangles": 388
+    },
+    {
+      "id": "beach_lounger",
+      "path": "assets/themes/coast/sample-v006/beach_lounger.glb",
+      "bytes": 9788,
+      "sha256": "b6282f01b37fed57c8a50e6042b1fcaafa2b45e906f7a400c7bb6365fd8bd997",
+      "triangles": 140
+    },
+    {
+      "id": "lifeguard_tower",
+      "path": "assets/themes/coast/sample-v006/lifeguard_tower.glb",
+      "bytes": 90236,
+      "sha256": "519ca18d77928d2dd7e699c9f2e21bf1ec3e1b998290f05622c078128568ce31",
+      "triangles": 1022
+    }
+  ]
+}

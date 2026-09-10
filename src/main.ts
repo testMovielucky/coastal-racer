@@ -2,13 +2,19 @@ import './style.css';
 import './carPreview.css';
 
 const root = document.querySelector<HTMLElement>('#app')!;
-const previewMode = new URLSearchParams(location.search).get('view') === 'car-v006';
+const view = new URLSearchParams(location.search).get('view');
+const previewMode = view === 'car-v006';
 root.innerHTML = '<main class="loading"><p class="eyebrow">COASTAL RACER / 00</p><h1>Подготовка стенда</h1><p role="status">Загружаем движок и локальную физику…</p></main>';
 if (previewMode) root.querySelector('[role=status]')!.textContent = 'Загружаем модель v006 и материалы…';
+if (view === 'coast-v006') root.querySelector('[role=status]')!.textContent = 'Загружаем побережье, машину и игровой свет…';
 let dispose: (() => void) | undefined;
 
 try {
-  if (previewMode) {
+  if (view === 'coast-v006') {
+    const { startCoastPreview } = await import('./app/coastPreview');
+    const preview = await startCoastPreview(root);
+    dispose = () => preview.dispose();
+  } else if (previewMode) {
     const { startCarPreview } = await import('./app/carPreview');
     const preview = await startCarPreview(root);
     dispose = () => preview.dispose();

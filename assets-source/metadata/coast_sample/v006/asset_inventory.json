@@ -1,0 +1,1326 @@
+{
+  "schema_version": 1,
+  "asset_version": "v006",
+  "seed": 909061,
+  "scenario": "coast-art-sample-40m",
+  "units": "metres",
+  "axes": {
+    "blender": {
+      "forward": "-Y",
+      "up": "+Z"
+    },
+    "gltf": {
+      "forward": "+Z",
+      "up": "+Y"
+    },
+    "blender_to_gltf_position": "(x,y,z) -> (x,z,-y)"
+  },
+  "road": {
+    "width_m": 8.4,
+    "sample_length_m": 40,
+    "module_length_m": 8,
+    "top_z_blender_m": 0,
+    "entry_blender": [
+      0,
+      20,
+      0
+    ],
+    "exit_blender": [
+      0,
+      -20,
+      0
+    ],
+    "decor_exclusion_blender": {
+      "min": [
+        -4.2,
+        -20,
+        0
+      ],
+      "max": [
+        4.2,
+        20,
+        5
+      ]
+    }
+  },
+  "assets": {
+    "road_straight_8m": {
+      "file": "road_straight_8m.glb",
+      "description": "8.4 m wide two-lane art sample; marking phase repeats every 4 m.",
+      "triangles": 84,
+      "materials": [
+        "Coast_Asphalt",
+        "Coast_Mineral"
+      ],
+      "bounds_blender_m": {
+        "min": [
+          -4.200000286102295,
+          -4.0,
+          -0.23999999463558197
+        ],
+        "max": [
+          4.200000286102295,
+          4.0,
+          0.015999995172023773
+        ]
+      },
+      "connections_blender_m": {
+        "Entry": [
+          0,
+          4,
+          0
+        ],
+        "Exit": [
+          0,
+          -4,
+          0
+        ]
+      },
+      "colliders_blender": [
+        {
+          "shape": "box",
+          "center": [
+            0,
+            0,
+            -0.12
+          ],
+          "size": [
+            8.4,
+            8,
+            0.24
+          ]
+        }
+      ],
+      "sha256": "7e896d03fc9c5899195bd095b91cf0a7eb009ef1f97cee5176f0d4f53b253423",
+      "bytes": 8804
+    },
+    "promenade_8m": {
+      "file": "promenade_8m.glb",
+      "description": "2.4 m wide pale tiled promenade; curb faces local -X.",
+      "triangles": 324,
+      "materials": [
+        "Coast_Mineral"
+      ],
+      "bounds_blender_m": {
+        "min": [
+          -1.2000000476837158,
+          -4.0,
+          0.0
+        ],
+        "max": [
+          1.2000000476837158,
+          4.0,
+          0.20000000298023224
+        ]
+      },
+      "connections_blender_m": {
+        "Entry": [
+          0,
+          4,
+          0.12
+        ],
+        "Exit": [
+          0,
+          -4,
+          0.12
+        ]
+      },
+      "colliders_blender": [
+        {
+          "shape": "box",
+          "center": [
+            0,
+            0,
+            0.06
+          ],
+          "size": [
+            2.4,
+            8,
+            0.12
+          ]
+        }
+      ],
+      "sha256": "7b358cda266db3f4266e1601df4434b1aa4b68091c3b80ed257f7e94ad41ffde",
+      "bytes": 26744
+    },
+    "barrier_4m": {
+      "file": "barrier_4m.glb",
+      "description": "Open pale coastal railing with turquoise cap; 4 m repeat.",
+      "triangles": 108,
+      "materials": [
+        "Coast_Mineral",
+        "Coast_Painted"
+      ],
+      "bounds_blender_m": {
+        "min": [
+          -0.20000000298023224,
+          -2.0,
+          0.0
+        ],
+        "max": [
+          0.20000000298023224,
+          2.0,
+          0.85999995470047
+        ]
+      },
+      "connections_blender_m": {
+        "Entry": [
+          0,
+          2,
+          0
+        ],
+        "Exit": [
+          0,
+          -2,
+          0
+        ]
+      },
+      "colliders_blender": [
+        {
+          "shape": "box",
+          "center": [
+            0,
+            0,
+            0.4
+          ],
+          "size": [
+            0.4,
+            4,
+            0.8
+          ]
+        }
+      ],
+      "sha256": "d7d71bb183472c5122da800eca8b4cce937db92249965e42695f2bdfc0e11a07",
+      "bytes": 10660
+    },
+    "inland_strip_8m": {
+      "file": "inland_strip_8m.glb",
+      "description": "3.4 m planted verge, reserved decor outside the driveable road.",
+      "triangles": 80,
+      "materials": [
+        "Coast_Mineral",
+        "Coast_Foliage"
+      ],
+      "bounds_blender_m": {
+        "min": [
+          -1.7000000476837158,
+          -4.0,
+          -0.25999999046325684
+        ],
+        "max": [
+          1.7000000476837158,
+          4.0,
+          0.33000004291534424
+        ]
+      },
+      "connections_blender_m": {
+        "Entry": [
+          0,
+          4,
+          0
+        ],
+        "Exit": [
+          0,
+          -4,
+          0
+        ]
+      },
+      "colliders_blender": [],
+      "sha256": "1a2636a35b60a1d6971d00be3c02a741c1fffa18e4a1a3d71fdfab1f821dfa8d",
+      "bytes": 10544
+    },
+    "beach_8m": {
+      "file": "beach_8m.glb",
+      "description": "8 m long sand-to-shallows transition, periodic matching shore profile.",
+      "triangles": 320,
+      "materials": [
+        "Coast_Mineral"
+      ],
+      "bounds_blender_m": {
+        "min": [
+          0.0,
+          -4.0,
+          -0.38999998569488525
+        ],
+        "max": [
+          8.220000267028809,
+          4.0,
+          -0.014999999664723873
+        ]
+      },
+      "connections_blender_m": {
+        "Entry": [
+          0,
+          4,
+          -0.015
+        ],
+        "Exit": [
+          0,
+          -4,
+          -0.015
+        ]
+      },
+      "colliders_blender": [],
+      "sha256": "69b710a90cb99ccb1893c4e1feca7f8e39c7d257ea211adf088a34a302c06ea9",
+      "bytes": 14076
+    },
+    "water_8m": {
+      "file": "water_8m.glb",
+      "description": "Static water; locally generated packed 1024px caustic/foam texture, periodic in Y.",
+      "triangles": 1792,
+      "materials": [
+        "Coast_Water",
+        "Coast_Mineral"
+      ],
+      "bounds_blender_m": {
+        "min": [
+          6.805069446563721,
+          -4.0,
+          -0.29600000381469727
+        ],
+        "max": [
+          25.0,
+          4.0,
+          -0.27399998903274536
+        ]
+      },
+      "connections_blender_m": {
+        "Entry": [
+          0,
+          4,
+          -0.285
+        ],
+        "Exit": [
+          0,
+          -4,
+          -0.285
+        ]
+      },
+      "colliders_blender": [],
+      "sha256": "eb339ea0ef4eb716746488466acdf608ff4601a28ee942d8cfe906320028360c",
+      "bytes": 914000
+    },
+    "palm_a": {
+      "file": "palm_a.glb",
+      "description": "Full pennate palm with broad curved leaflets; no alpha cards.",
+      "triangles": 5004,
+      "materials": [
+        "Coast_Mineral",
+        "Coast_Foliage"
+      ],
+      "bounds_blender_m": {
+        "min": [
+          -2.535918951034546,
+          -2.782745838165283,
+          -0.010259401053190231
+        ],
+        "max": [
+          3.204172372817993,
+          3.10274600982666,
+          7.203820705413818
+        ]
+      },
+      "connections_blender_m": {},
+      "colliders_blender": [
+        {
+          "shape": "capsule",
+          "start": [
+            0,
+            0,
+            0
+          ],
+          "end": [
+            0.55,
+            0.16,
+            5.8
+          ],
+          "radius": 0.25
+        }
+      ],
+      "sha256": "dbad4fa708f9bc09e8d854d02ebbd36ab13b7f167f6b9d90d49fbf49ad05c14e",
+      "bytes": 248800
+    },
+    "bollard": {
+      "file": "bollard.glb",
+      "description": "Promenade bollard, no electric light or runtime effect.",
+      "triangles": 408,
+      "materials": [
+        "Coast_Mineral",
+        "Coast_Metal",
+        "Coast_Painted"
+      ],
+      "bounds_blender_m": {
+        "min": [
+          -0.1599999964237213,
+          -0.1599999964237213,
+          0.0
+        ],
+        "max": [
+          0.1599999964237213,
+          0.1599999964237213,
+          0.7849999666213989
+        ]
+      },
+      "connections_blender_m": {},
+      "colliders_blender": [
+        {
+          "shape": "box",
+          "center": [
+            0,
+            0,
+            0.4
+          ],
+          "size": [
+            0.16,
+            0.16,
+            0.8
+          ]
+        }
+      ],
+      "sha256": "b4aeabf004365b205723e870b30844ffdf521cb9a294eb35a8adc5b865fe8c17",
+      "bytes": 41764
+    },
+    "rock_cluster": {
+      "file": "rock_cluster.glb",
+      "description": "Original faceted limestone and pebble group.",
+      "triangles": 160,
+      "materials": [
+        "Coast_Mineral"
+      ],
+      "bounds_blender_m": {
+        "min": [
+          -0.7808305621147156,
+          -0.7527147531509399,
+          -0.22999994456768036
+        ],
+        "max": [
+          1.0144908428192139,
+          0.6314576864242554,
+          1.03000009059906
+        ]
+      },
+      "connections_blender_m": {},
+      "colliders_blender": [],
+      "sha256": "d69442dedebc0a6b316d9ee4ba172d60431a10abf2d82777770b707ad6a5bf6a",
+      "bytes": 23544
+    },
+    "agave_cluster": {
+      "file": "agave_cluster.glb",
+      "description": "Two-scale fleshy rosette and dune grass cluster.",
+      "triangles": 176,
+      "materials": [
+        "Coast_Foliage"
+      ],
+      "bounds_blender_m": {
+        "min": [
+          -0.6769685745239258,
+          -0.709259569644928,
+          0.0
+        ],
+        "max": [
+          0.9000000357627869,
+          0.709259569644928,
+          0.6598464250564575
+        ]
+      },
+      "connections_blender_m": {},
+      "colliders_blender": [],
+      "sha256": "3d32714b2e55307f64870cc0fa0bd8d8eaade00fc95e5c2cc07678898ec32107",
+      "bytes": 9488
+    },
+    "flower_cluster": {
+      "file": "flower_cluster.glb",
+      "description": "Compact green shrub with small coral flowers, not road obstacles.",
+      "triangles": 322,
+      "materials": [
+        "Coast_Foliage",
+        "Coast_Painted"
+      ],
+      "bounds_blender_m": {
+        "min": [
+          -0.6401824951171875,
+          -0.653455376625061,
+          0.08690804988145828
+        ],
+        "max": [
+          0.7099999785423279,
+          0.653455376625061,
+          0.6549999713897705
+        ]
+      },
+      "connections_blender_m": {},
+      "colliders_blender": [],
+      "sha256": "74cc8788247905f21678ef507d2451da52100eca53a5d698514c2fc3ea964561",
+      "bytes": 20488
+    },
+    "beach_umbrella": {
+      "file": "beach_umbrella.glb",
+      "description": "Turquoise and white eight-panel umbrella, 2.6 m diameter.",
+      "triangles": 388,
+      "materials": [
+        "Coast_Metal",
+        "Coast_Painted"
+      ],
+      "bounds_blender_m": {
+        "min": [
+          -1.2999999523162842,
+          -1.2999999523162842,
+          0.0
+        ],
+        "max": [
+          1.2999999523162842,
+          1.2999999523162842,
+          2.369999885559082
+        ]
+      },
+      "connections_blender_m": {},
+      "colliders_blender": [],
+      "sha256": "035b156422d1c57c032215928cf92f737a4b8dac98f0b3180233918ad95c0bfd",
+      "bytes": 14432
+    },
+    "beach_lounger": {
+      "file": "beach_lounger.glb",
+      "description": "Folded beach chaise with teal canvas and pale frame.",
+      "triangles": 140,
+      "materials": [
+        "Coast_Metal",
+        "Coast_Painted"
+      ],
+      "bounds_blender_m": {
+        "min": [
+          -0.34700000286102295,
+          -0.8608654737472534,
+          -0.0015196502208709717
+        ],
+        "max": [
+          0.34700000286102295,
+          0.8866598010063171,
+          1.0164073705673218
+        ]
+      },
+      "connections_blender_m": {},
+      "colliders_blender": [],
+      "sha256": "b6282f01b37fed57c8a50e6042b1fcaafa2b45e906f7a400c7bb6365fd8bd997",
+      "bytes": 9788
+    },
+    "lifeguard_tower": {
+      "file": "lifeguard_tower.glb",
+      "description": "3.73 m original striped lifeguard hut, stilts, braces, stairs and rescue board.",
+      "triangles": 1022,
+      "materials": [
+        "Coast_Painted",
+        "Coast_Metal"
+      ],
+      "bounds_blender_m": {
+        "min": [
+          -1.0924999713897705,
+          -2.7433958053588867,
+          -0.00430673360824585
+        ],
+        "max": [
+          1.3103857040405273,
+          1.0924999713897705,
+          3.7300000190734863
+        ]
+      },
+      "connections_blender_m": {},
+      "colliders_blender": [
+        {
+          "shape": "box",
+          "center": [
+            0,
+            0,
+            1.9
+          ],
+          "size": [
+            2.12,
+            2.12,
+            3.8
+          ]
+        }
+      ],
+      "sha256": "519ca18d77928d2dd7e699c9f2e21bf1ec3e1b998290f05622c078128568ce31",
+      "bytes": 90236
+    }
+  },
+  "placements": [
+    {
+      "asset": "road_straight_8m",
+      "position_blender_m": [
+        0,
+        -16,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "promenade_8m",
+      "position_blender_m": [
+        5.7,
+        -16,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "inland_strip_8m",
+      "position_blender_m": [
+        -5.9,
+        -16,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "beach_8m",
+      "position_blender_m": [
+        6.9,
+        -16,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "water_8m",
+      "position_blender_m": [
+        6.9,
+        -16,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "road_straight_8m",
+      "position_blender_m": [
+        0,
+        -8,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "promenade_8m",
+      "position_blender_m": [
+        5.7,
+        -8,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "inland_strip_8m",
+      "position_blender_m": [
+        -5.9,
+        -8,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "beach_8m",
+      "position_blender_m": [
+        6.9,
+        -8,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "water_8m",
+      "position_blender_m": [
+        6.9,
+        -8,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "road_straight_8m",
+      "position_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "promenade_8m",
+      "position_blender_m": [
+        5.7,
+        0,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "inland_strip_8m",
+      "position_blender_m": [
+        -5.9,
+        0,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "beach_8m",
+      "position_blender_m": [
+        6.9,
+        0,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "water_8m",
+      "position_blender_m": [
+        6.9,
+        0,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "road_straight_8m",
+      "position_blender_m": [
+        0,
+        8,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "promenade_8m",
+      "position_blender_m": [
+        5.7,
+        8,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "inland_strip_8m",
+      "position_blender_m": [
+        -5.9,
+        8,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "beach_8m",
+      "position_blender_m": [
+        6.9,
+        8,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "water_8m",
+      "position_blender_m": [
+        6.9,
+        8,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "road_straight_8m",
+      "position_blender_m": [
+        0,
+        16,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "promenade_8m",
+      "position_blender_m": [
+        5.7,
+        16,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "inland_strip_8m",
+      "position_blender_m": [
+        -5.9,
+        16,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "beach_8m",
+      "position_blender_m": [
+        6.9,
+        16,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "water_8m",
+      "position_blender_m": [
+        6.9,
+        16,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "barrier_4m",
+      "position_blender_m": [
+        4.44,
+        -18,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "barrier_4m",
+      "position_blender_m": [
+        4.44,
+        -14,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "barrier_4m",
+      "position_blender_m": [
+        4.44,
+        -10,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "barrier_4m",
+      "position_blender_m": [
+        4.44,
+        -6,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "barrier_4m",
+      "position_blender_m": [
+        4.44,
+        -2,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "barrier_4m",
+      "position_blender_m": [
+        4.44,
+        2,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "barrier_4m",
+      "position_blender_m": [
+        4.44,
+        6,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "barrier_4m",
+      "position_blender_m": [
+        4.44,
+        10,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "barrier_4m",
+      "position_blender_m": [
+        4.44,
+        14,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "barrier_4m",
+      "position_blender_m": [
+        4.44,
+        18,
+        0
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "palm_a",
+      "position_blender_m": [
+        7.8,
+        -13,
+        -0.04
+      ],
+      "rotation_z_radians": 0.4,
+      "uniform_scale": 1.04
+    },
+    {
+      "asset": "palm_a",
+      "position_blender_m": [
+        8.1,
+        3,
+        -0.04
+      ],
+      "rotation_z_radians": 2.7,
+      "uniform_scale": 1.0
+    },
+    {
+      "asset": "palm_a",
+      "position_blender_m": [
+        -6.0,
+        -5,
+        -0.01
+      ],
+      "rotation_z_radians": 1.2,
+      "uniform_scale": 1.08
+    },
+    {
+      "asset": "palm_a",
+      "position_blender_m": [
+        -6.1,
+        13,
+        -0.01
+      ],
+      "rotation_z_radians": 3.7,
+      "uniform_scale": 0.94
+    },
+    {
+      "asset": "palm_a",
+      "position_blender_m": [
+        8.0,
+        16,
+        -0.04
+      ],
+      "rotation_z_radians": 5.0,
+      "uniform_scale": 0.87
+    },
+    {
+      "asset": "bollard",
+      "position_blender_m": [
+        6.6,
+        -16,
+        0.12
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "bollard",
+      "position_blender_m": [
+        6.6,
+        -8,
+        0.12
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "bollard",
+      "position_blender_m": [
+        6.6,
+        0,
+        0.12
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "bollard",
+      "position_blender_m": [
+        6.6,
+        8,
+        0.12
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "bollard",
+      "position_blender_m": [
+        6.6,
+        16,
+        0.12
+      ],
+      "rotation_z_radians": 0,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "rock_cluster",
+      "position_blender_m": [
+        10.3,
+        -15,
+        -0.05
+      ],
+      "rotation_z_radians": 0.6,
+      "uniform_scale": 1.2320000000000002
+    },
+    {
+      "asset": "rock_cluster",
+      "position_blender_m": [
+        9.2,
+        -1.4,
+        -0.06
+      ],
+      "rotation_z_radians": 1.8,
+      "uniform_scale": 0.8960000000000001
+    },
+    {
+      "asset": "rock_cluster",
+      "position_blender_m": [
+        10.7,
+        14.0,
+        -0.05
+      ],
+      "rotation_z_radians": 3.0,
+      "uniform_scale": 1.288
+    },
+    {
+      "asset": "rock_cluster",
+      "position_blender_m": [
+        -6.2,
+        -16,
+        0
+      ],
+      "rotation_z_radians": 0.7,
+      "uniform_scale": 0.8960000000000001
+    },
+    {
+      "asset": "rock_cluster",
+      "position_blender_m": [
+        -6.1,
+        5,
+        0
+      ],
+      "rotation_z_radians": 2.0,
+      "uniform_scale": 0.7280000000000001
+    },
+    {
+      "asset": "rock_cluster",
+      "position_blender_m": [
+        -6.5,
+        17,
+        0
+      ],
+      "rotation_z_radians": 4.0,
+      "uniform_scale": 1.064
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        8.2,
+        -18,
+        -0.025
+      ],
+      "rotation_z_radians": 0.0,
+      "uniform_scale": 1.19
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        9.3,
+        -12,
+        -0.025
+      ],
+      "rotation_z_radians": 0.91,
+      "uniform_scale": 1.4
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        8.2,
+        -6,
+        -0.025
+      ],
+      "rotation_z_radians": 1.82,
+      "uniform_scale": 1.0499999999999998
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        10.6,
+        0,
+        -0.025
+      ],
+      "rotation_z_radians": 2.73,
+      "uniform_scale": 1.54
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        8.0,
+        6,
+        -0.025
+      ],
+      "rotation_z_radians": 3.64,
+      "uniform_scale": 1.1199999999999999
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        10.2,
+        16,
+        -0.025
+      ],
+      "rotation_z_radians": 4.55,
+      "uniform_scale": 1.26
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        -6.0,
+        -18,
+        -0.025
+      ],
+      "rotation_z_radians": 5.46,
+      "uniform_scale": 1.4
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        -6.6,
+        -10,
+        -0.025
+      ],
+      "rotation_z_radians": 6.37,
+      "uniform_scale": 1.0499999999999998
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        -6.0,
+        -1,
+        -0.025
+      ],
+      "rotation_z_radians": 7.28,
+      "uniform_scale": 1.4
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        -6.2,
+        6,
+        -0.025
+      ],
+      "rotation_z_radians": 8.19,
+      "uniform_scale": 0.9799999999999999
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        -6.2,
+        17,
+        -0.025
+      ],
+      "rotation_z_radians": 9.1,
+      "uniform_scale": 1.4
+    },
+    {
+      "asset": "flower_cluster",
+      "position_blender_m": [
+        8.3,
+        -10,
+        -0.01
+      ],
+      "rotation_z_radians": 0.0,
+      "uniform_scale": 1.22
+    },
+    {
+      "asset": "flower_cluster",
+      "position_blender_m": [
+        9.1,
+        1,
+        -0.01
+      ],
+      "rotation_z_radians": 1.7,
+      "uniform_scale": 1.22
+    },
+    {
+      "asset": "flower_cluster",
+      "position_blender_m": [
+        -6.0,
+        -12,
+        -0.01
+      ],
+      "rotation_z_radians": 3.4,
+      "uniform_scale": 1.35
+    },
+    {
+      "asset": "flower_cluster",
+      "position_blender_m": [
+        -6.2,
+        2,
+        -0.01
+      ],
+      "rotation_z_radians": 5.1,
+      "uniform_scale": 1.35
+    },
+    {
+      "asset": "flower_cluster",
+      "position_blender_m": [
+        -6.0,
+        16,
+        -0.01
+      ],
+      "rotation_z_radians": 6.8,
+      "uniform_scale": 1.35
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        8.35,
+        -12.8,
+        -0.04
+      ],
+      "rotation_z_radians": 0.0,
+      "uniform_scale": 0.55
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        8.65,
+        3.2,
+        -0.04
+      ],
+      "rotation_z_radians": 1.35,
+      "uniform_scale": 0.55
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        -5.45,
+        -4.8,
+        -0.01
+      ],
+      "rotation_z_radians": 2.7,
+      "uniform_scale": 0.55
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        -5.55,
+        13.2,
+        -0.01
+      ],
+      "rotation_z_radians": 4.050000000000001,
+      "uniform_scale": 0.55
+    },
+    {
+      "asset": "agave_cluster",
+      "position_blender_m": [
+        8.55,
+        16.2,
+        -0.04
+      ],
+      "rotation_z_radians": 5.4,
+      "uniform_scale": 0.55
+    },
+    {
+      "asset": "lifeguard_tower",
+      "position_blender_m": [
+        10.6,
+        -7.5,
+        -0.07
+      ],
+      "rotation_z_radians": -0.3490658503988659,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "beach_umbrella",
+      "position_blender_m": [
+        10.0,
+        8.4,
+        -0.07
+      ],
+      "rotation_z_radians": 0.1,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "beach_lounger",
+      "position_blender_m": [
+        9.35,
+        9.55,
+        -0.07
+      ],
+      "rotation_z_radians": -0.2617993877991494,
+      "uniform_scale": 1
+    },
+    {
+      "asset": "beach_lounger",
+      "position_blender_m": [
+        10.75,
+        9.55,
+        -0.07
+      ],
+      "rotation_z_radians": -0.2617993877991494,
+      "uniform_scale": 1
+    }
+  ],
+  "review_car": {
+    "path": "public/assets/cars/cr_sport_01/v006/cr_sport_01_v006.glb",
+    "sha256": "ada35c65b99507aa1f019be017b2c7d0ba3f9e222bc7e496686e13539c7c38dd",
+    "position_blender_m": [
+      -1.850000023841858,
+      11.0,
+      0.010999999940395355
+    ],
+    "exported_with_environment": false
+  },
+  "status": "awaiting_artistic_review",
+  "not_implemented": [
+    "track generator",
+    "race physics",
+    "browser integration",
+    "animated water",
+    "device performance measurement"
+  ]
+}

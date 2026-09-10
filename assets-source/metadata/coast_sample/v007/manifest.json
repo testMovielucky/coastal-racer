@@ -1,0 +1,80 @@
+{
+  "asset_set": "coast_sample",
+  "revision": "v007",
+  "baseline": "v006",
+  "type": "Blender review lighting only",
+  "status": "awaiting_artistic_review",
+  "created_at": "2026-09-10T00:24:44.0560631+03:00",
+  "seed": 909061,
+  "blender": "5.2.1 LTS",
+  "exports_reused": "public/assets/themes/coast/sample-v006/sample_layout.json",
+  "source_manifest": "assets-source/metadata/coast_sample/v006/manifest.json",
+  "source_manifest_sha256": "61b4b9b56f8a36176969362199ac79c4c8b02aaf6ea0c410dc19439a52d03d4d",
+  "files": [
+    {
+      "path": "tools/blender/soften_coast_shadows_v007.py",
+      "bytes": 3978,
+      "sha256": "5c039c58677d586c49aa236df31cb5382cb03c5e866191d7ca3fca4caa800813"
+    },
+    {
+      "path": "assets-source/blender/coast_sample/v007/coast_sample_v007.blend",
+      "bytes": 1586298,
+      "sha256": "65143b671fcd3b735fd3d2d3d23929f739de4ff1d08a5e0c4866a44e20874fa3"
+    },
+    {
+      "path": "assets-source/prompts/coast_sample/v007/brief.md",
+      "bytes": 1171,
+      "sha256": "8d011d89e4799baaef0bf3406bb6aa19877546a5b8f948a809353fb2d4fe77aa"
+    },
+    {
+      "path": "assets-source/metadata/coast_sample/v007/README.md",
+      "bytes": 4309,
+      "sha256": "2383d713d60ccf7695ea265452d28e1ab4b819b949c32766a8b64097b616f417"
+    },
+    {
+      "path": "assets-source/metadata/coast_sample/v007/validation.json",
+      "bytes": 940,
+      "sha256": "2c536cd298b97d911bfd74b5b0586c82f6c1ac80fc4f2d9cf26775e40f31ba29"
+    },
+    {
+      "path": "assets-source/previews/coast_sample/v007/coast_detail.png",
+      "bytes": 2381557,
+      "sha256": "4abef89c1d98bbfed45b5a85d7ce9a19d3c3d944cdd806a55d31e936d281165b"
+    },
+    {
+      "path": "assets-source/previews/coast_sample/v007/gameplay_composed.png",
+      "bytes": 2643910,
+      "sha256": "c3b7bdae4d4dd9b23b30a7b27a815d40499d20ced897b1c8334ba46ffbff9cbc"
+    },
+    {
+      "path": "assets-source/previews/coast_sample/v007/gameplay.png",
+      "bytes": 1956426,
+      "sha256": "64f37020031c944efcf4d70c015df7184c5981914155abec007f658e6aa16211"
+    },
+    {
+      "path": "assets-source/previews/coast_sample/v007/overview.png",
+      "bytes": 2397009,
+      "sha256": "54fd93b7fb8920489ab567c5ee0c40073d9918152474ea167368f7e4dcc5cc02"
+    },
+    {
+      "path": "assets-source/previews/coast_sample/v007/shadow_preview_4deg.png",
+      "bytes": 686034,
+      "sha256": "cb0eb479cc13565965612fd0d8eb8900b70a3e4ee8187e646c9b7f85a9854841"
+    },
+    {
+      "path": "assets-source/previews/coast_sample/v007/shadow_preview.png",
+      "bytes": 681954,
+      "sha256": "f5b31f9155dbbdd2212b3e87a1f13bd2890039b92b2eefdfca0f8099664e8e25"
+    },
+    {
+      "path": "assets-source/previews/coast_sample/v007/tower_detail.png",
+      "bytes": 2352343,
+      "sha256": "fd782394f8d20d85e082049885e0663ea231ec4c5e7c876e07b9af6313f441ba"
+    }
+  ],
+  "not_verified": [
+    "human artistic approval",
+    "Babylon shadows",
+    "device performance"
+  ]
+}

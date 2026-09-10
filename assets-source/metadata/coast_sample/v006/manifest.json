@@ -1,0 +1,196 @@
+{
+  "asset_set": "coast_sample",
+  "revision": "v006",
+  "baseline": "v005",
+  "status": "awaiting_artistic_review",
+  "created_at": "2026-09-10T00:11:31.3592536+03:00",
+  "scenario": "coast-art-sample-40m",
+  "seed": 909061,
+  "blender": "5.2.1 LTS",
+  "accepted_car_sha256": "ada35c65b99507aa1f019be017b2c7d0ba3f9e222bc7e496686e13539c7c38dd",
+  "unique_geometry_triangles": 10328,
+  "sample_environment_triangles": 48216,
+  "sample_with_car_triangles": 69330,
+  "environment_materials": 6,
+  "texture_count": 1,
+  "texture_resolution": [
+    1024,
+    1024
+  ],
+  "asset_count": 14,
+  "placement_count": 76,
+  "glb_total_bytes": 1443368,
+  "files": [
+    {
+      "path": "tools/blender/coast_sample_v006.py",
+      "bytes": 16797,
+      "sha256": "62835b20e586dc6e55eb148f78cdf74691aaad1270dbbcc07714450598df852f"
+    },
+    {
+      "path": "tools/blender/coast_details_v006.py",
+      "bytes": 17012,
+      "sha256": "ec14b0afdd589b82486cce07ddbbb79b6cf080ca4fb567643191f0b979304324"
+    },
+    {
+      "path": "tools/blender/coast_look_v006.py",
+      "bytes": 2288,
+      "sha256": "e1744f3586e8aad28701475228672249840a289601f8088e8a71d181b2e204a5"
+    },
+    {
+      "path": "tools/blender/lookdev_coast_v006.py",
+      "bytes": 1339,
+      "sha256": "746d5da9091644f2933bd305375bf6e96f5c13cb04e2dee02815c259766d8c1e"
+    },
+    {
+      "path": "tools/blender/validate_coast_sample_v006.py",
+      "bytes": 8341,
+      "sha256": "2496e8cb3995121db088c4cd95cc162d938d962a33568ae1f0279028fec1b6be"
+    },
+    {
+      "path": "tools/blender/audit_coast_look_v006.py",
+      "bytes": 3930,
+      "sha256": "0c835be37a3a8057a578c1f757fdd1bcb99144ee5df137617f111e2fb17a7ebb"
+    },
+    {
+      "path": "assets-source/blender/coast_sample/v006/coast_sample_v006.blend",
+      "bytes": 1591785,
+      "sha256": "4f13ddb2717ed898e9efc91bc3043fbd7c8424da49377a4f8fea42774c2b0c88"
+    },
+    {
+      "path": "assets-source/blender/coast_sample/v006/textures/water_pattern_1024.png",
+      "bytes": 852763,
+      "sha256": "1d281c2dc969a60c944bd81ccd9179b25a3420cd8f3886098e9b9be342626a02"
+    },
+    {
+      "path": "assets-source/prompts/coast_sample/v006/brief.md",
+      "bytes": 2088,
+      "sha256": "338be11c6b8ffd4d75095b42277770a918423989c0c2cb313c7a91b27d883e48"
+    },
+    {
+      "path": "assets-source/metadata/coast_sample/v006/README.md",
+      "bytes": 8638,
+      "sha256": "516eb6ed31af9814a9b10a4da37cab2c91e6348d1a2a982045dbb518b1e83ac8"
+    },
+    {
+      "path": "assets-source/metadata/coast_sample/v006/asset_inventory.json",
+      "bytes": 27891,
+      "sha256": "ddc2eaa759b9abf10cdc53a2a129df10b8dfa843c7c9d4806410c82832e1410b"
+    },
+    {
+      "path": "assets-source/metadata/coast_sample/v006/validation.json",
+      "bytes": 7177,
+      "sha256": "348ebcfcd4a6730ad02be21601e8d16b822ab7826d2fa0438761706ead9f42bc"
+    },
+    {
+      "path": "assets-source/metadata/coast_sample/v006/shading_revision_audit.json",
+      "bytes": 2400,
+      "sha256": "7450f38114da9c4ab1bb63c12bc96398b646b9b17086691ada0b2e66ae509856"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/agave_cluster.glb",
+      "bytes": 9488,
+      "sha256": "3d32714b2e55307f64870cc0fa0bd8d8eaade00fc95e5c2cc07678898ec32107"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/barrier_4m.glb",
+      "bytes": 10660,
+      "sha256": "d7d71bb183472c5122da800eca8b4cce937db92249965e42695f2bdfc0e11a07"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/beach_8m.glb",
+      "bytes": 14076,
+      "sha256": "69b710a90cb99ccb1893c4e1feca7f8e39c7d257ea211adf088a34a302c06ea9"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/beach_lounger.glb",
+      "bytes": 9788,
+      "sha256": "b6282f01b37fed57c8a50e6042b1fcaafa2b45e906f7a400c7bb6365fd8bd997"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/beach_umbrella.glb",
+      "bytes": 14432,
+      "sha256": "035b156422d1c57c032215928cf92f737a4b8dac98f0b3180233918ad95c0bfd"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/bollard.glb",
+      "bytes": 41764,
+      "sha256": "b4aeabf004365b205723e870b30844ffdf521cb9a294eb35a8adc5b865fe8c17"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/flower_cluster.glb",
+      "bytes": 20488,
+      "sha256": "74cc8788247905f21678ef507d2451da52100eca53a5d698514c2fc3ea964561"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/inland_strip_8m.glb",
+      "bytes": 10544,
+      "sha256": "1a2636a35b60a1d6971d00be3c02a741c1fffa18e4a1a3d71fdfab1f821dfa8d"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/lifeguard_tower.glb",
+      "bytes": 90236,
+      "sha256": "519ca18d77928d2dd7e699c9f2e21bf1ec3e1b998290f05622c078128568ce31"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/palm_a.glb",
+      "bytes": 248800,
+      "sha256": "dbad4fa708f9bc09e8d854d02ebbd36ab13b7f167f6b9d90d49fbf49ad05c14e"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/promenade_8m.glb",
+      "bytes": 26744,
+      "sha256": "7b358cda266db3f4266e1601df4434b1aa4b68091c3b80ed257f7e94ad41ffde"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/road_straight_8m.glb",
+      "bytes": 8804,
+      "sha256": "7e896d03fc9c5899195bd095b91cf0a7eb009ef1f97cee5176f0d4f53b253423"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/rock_cluster.glb",
+      "bytes": 23544,
+      "sha256": "d69442dedebc0a6b316d9ee4ba172d60431a10abf2d82777770b707ad6a5bf6a"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/sample_layout.json",
+      "bytes": 27891,
+      "sha256": "ddc2eaa759b9abf10cdc53a2a129df10b8dfa843c7c9d4806410c82832e1410b"
+    },
+    {
+      "path": "public/assets/themes/coast/sample-v006/water_8m.glb",
+      "bytes": 914000,
+      "sha256": "eb339ea0ef4eb716746488466acdf608ff4601a28ee942d8cfe906320028360c"
+    },
+    {
+      "path": "assets-source/previews/coast_sample/v006/coast_detail.png",
+      "bytes": 2444782,
+      "sha256": "d9e22184787c2bd72ed46c9a064537e976c753fd8a13e0479a81712d84f97ecf"
+    },
+    {
+      "path": "assets-source/previews/coast_sample/v006/gameplay_composed.png",
+      "bytes": 2681095,
+      "sha256": "c35cc10fb1f400740aaaade37d9b17c49e3b1e9ad81f5f252ecf012ac6eb934a"
+    },
+    {
+      "path": "assets-source/previews/coast_sample/v006/gameplay.png",
+      "bytes": 1988409,
+      "sha256": "6a4f218d3226379baf05c5f873dc0527a412be122e493f6680a8f7cb4124f69b"
+    },
+    {
+      "path": "assets-source/previews/coast_sample/v006/overview.png",
+      "bytes": 2424894,
+      "sha256": "7c14ea65234a0e3d5f878a35d7ddb71cba27946d7cccb6357b0ccbf45587197a"
+    },
+    {
+      "path": "assets-source/previews/coast_sample/v006/tower_detail.png",
+      "bytes": 2397406,
+      "sha256": "5c63a651727a7436d9a594524ff714f910e1f94d2b2ab43f630fe2f09df4b232"
+    }
+  ],
+  "not_verified": [
+    "human artistic approval",
+    "Babylon rendering",
+    "physics collider integration",
+    "iPhone/iPad performance"
+  ]
+}

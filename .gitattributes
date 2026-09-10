@@ -4,3 +4,5 @@ tools/blender/** -text
 *.glb binary
 *.blend binary
 *.png binary
+
+public/assets/themes/coast/sample-v006/** -text
