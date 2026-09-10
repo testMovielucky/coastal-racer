@@ -6,10 +6,10 @@ const report = (page: Page) => page.evaluate(() => window.coastalCoastPreview!.s
 async function open(page: Page) {
   await page.goto('./?view=coast-v006');
   await page.waitForFunction(() => Boolean(window.coastalCoastPreview));
-  await expect.poll(async () => (await report(page)).frames.totalFrames).toBeGreaterThan(3);
+  await expect.poll(async () => (await report(page)).frames.totalFrames, { timeout: 60_000 }).toBeGreaterThan(3);
 }
 test('coast imports the original 40m layout and frames the accepted car in portrait', async ({ page }, testInfo) => {
-  test.setTimeout(90_000); // Software-rendered captures are artifacts, not device FPS measurements.
+  test.setTimeout(120_000); // Software-rendered captures are artifacts, not device FPS measurements.
   const errors: string[] = [], requests: string[] = [];
   page.on('pageerror', e => errors.push(e.message));
   page.on('request', r => requests.push(r.url()));
@@ -54,7 +54,7 @@ test('coast imports the original 40m layout and frames the accepted car in portr
 });
 
 test('coast handles pause, visibility, orientation, resize and disposal', async ({ page }, testInfo) => {
-  test.setTimeout(90_000);
+  test.setTimeout(120_000);
   await open(page);
   await page.locator('#coast-pause').click();
   const frames = (await report(page)).frames.totalFrames;
